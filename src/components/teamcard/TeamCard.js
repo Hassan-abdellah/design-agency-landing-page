@@ -12,17 +12,17 @@ const TeamCard = ({person}) => {
             <span>Follow {person.gender === 'male' ? 'him' :'her'}:</span>
             <ul className="social-icons">
             <li>
-                        <a href="#">
+                        <a href="!#">
                             <img src="/images/facebook.svg" alt="facebook" />
                         </a>
                     </li>
                     <li>
-                        <a href="#">
+                        <a href="!#">
                             <img src="/images/twitter.svg" alt="twitter" />
                         </a>
                     </li>
                     <li>
-                        <a href="#">
+                        <a href="!#">
                             <img src="/images/instagram.svg" alt="instagram" />
                         </a>
                     </li>
