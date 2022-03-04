@@ -8,32 +8,32 @@ const Footer = () => {
                 <p>Follow Us on Social Media:</p>
                 <ul>
                     <li>
-                        <a href="#">
+                        <a href="!#">
                             <img src="/images/facebook.svg" alt="facebook" />
                         </a>
                     </li>
                     <li>
-                        <a href="#">
+                        <a href="!#">
                             <img src="/images/twitter.svg" alt="twitter" />
                         </a>
                     </li>
                     <li>
-                        <a href="#">
+                        <a href="!#">
                             <img src="/images/instagram.svg" alt="instagram" />
                         </a>
                     </li>
                     <li>
-                        <a href="#">
+                        <a href="!#">
                             <img src="/images/github.svg" alt="github" />
                         </a>
                     </li>
                     <li>
-                        <a href="#">
+                        <a href="!#">
                             <img src="/images/linkedin.svg" alt="linkedin" />
                         </a>
                     </li>
                     <li>
-                        <a href="#">
+                        <a href="!#">
                             <img src="/images/pinterest.svg" alt="pintrest" />
                         </a>
                     </li>
@@ -42,35 +42,35 @@ const Footer = () => {
             <div className="footer-middle">
                 <ul>
                     <li><h3>About</h3></li>
-                    <li><a href="#">Contacts</a></li>
-                    <li><a href="#">Remote Work</a></li>
-                    <li><a href="#">Vision</a></li>
-                    <li><a href="#">Privacy</a></li>
-                    <li><a href="#">Terms of Use</a></li>
+                    <li><a href="!#">Contacts</a></li>
+                    <li><a href="!#">Remote Work</a></li>
+                    <li><a href="!#">Vision</a></li>
+                    <li><a href="!#">Privacy</a></li>
+                    <li><a href="!#">Terms of Use</a></li>
                 </ul>
                 <ul>
                     <li><h3>About</h3></li>
-                    <li><a href="#">Contacts</a></li>
-                    <li><a href="#">Remote Work</a></li>
-                    <li><a href="#">Vision</a></li>
-                    <li><a href="#">Privacy</a></li>
-                    <li><a href="#">Terms of Use</a></li>
+                    <li><a href="!#">Contacts</a></li>
+                    <li><a href="!#">Remote Work</a></li>
+                    <li><a href="!#">Vision</a></li>
+                    <li><a href="!#">Privacy</a></li>
+                    <li><a href="!#">Terms of Use</a></li>
                 </ul>
                 <ul>
                     <li><h3>About</h3></li>
-                    <li><a href="#">Contacts</a></li>
-                    <li><a href="#">Remote Work</a></li>
-                    <li><a href="#">Vision</a></li>
-                    <li><a href="#">Privacy</a></li>
-                    <li><a href="#">Terms of Use</a></li>
+                    <li><a href="!#">Contacts</a></li>
+                    <li><a href="!#">Remote Work</a></li>
+                    <li><a href="!#">Vision</a></li>
+                    <li><a href="!#">Privacy</a></li>
+                    <li><a href="!#">Terms of Use</a></li>
                 </ul>
                 {/* <ul>
                     <li><h3>About</h3></li>
-                    <li><a href="#">Contacts</a></li>
-                    <li><a href="#">Remote Work</a></li>
-                    <li><a href="#">Vision</a></li>
-                    <li><a href="#">Privacy</a></li>
-                    <li><a href="#">Terms of Use</a></li>
+                    <li><a href="!#">Contacts</a></li>
+                    <li><a href="!#">Remote Work</a></li>
+                    <li><a href="!#">Vision</a></li>
+                    <li><a href="!#">Privacy</a></li>
+                    <li><a href="!#">Terms of Use</a></li>
                 </ul> */}
             </div>
             <div className="footer-bottom">
