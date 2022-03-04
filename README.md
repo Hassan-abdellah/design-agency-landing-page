@@ -1,6 +1,8 @@
 # Design Agency Landing Page
 ## This Prorject is created using React JS library and Framer motion package
 
+[Live Demo](https://designyagency.netlify.app/)
+
 ## Available Scripts
 
 In the project directory, you can run:
