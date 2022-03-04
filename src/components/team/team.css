@@ -1,0 +1,32 @@
+.team-content{
+    height: calc(100% - 70px);
+    padding:20px 0 50px 0;
+}
+.team-content h2{
+    text-align: center;
+    margin-bottom: 10px;
+}
+.team-grid{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 20px;
+    /* padding: 0 100px; */
+}
+
+@media screen and (max-width:768px) {
+    .team-grid{
+        grid-template-columns: repeat(3,1fr);
+        gap: 10px;
+        padding: 0 20px;
+    }
+}
+@media screen and (max-width:500px) {
+    .team-grid{
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+@media screen and (max-width:400px) {
+    .team-grid{
+        grid-template-columns: repeat(1,1fr);
+    }
+}

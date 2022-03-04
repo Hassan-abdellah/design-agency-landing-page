@@ -1,0 +1,14 @@
+.faqs-contianer{
+    width: 100%;
+    height: calc(100% - 70px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* gap:20px; */
+    padding:10px 0 50px 0;
+}
+.faqs-contianer h2{
+    margin-bottom: 20px;
+    text-align: center;
+}

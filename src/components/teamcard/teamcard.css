@@ -1,0 +1,54 @@
+.team-card{
+    background-color: #fff;
+    color:#000;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 3px 10px rgba(0,0,0,0.2);
+}
+.card-head{
+    position: relative;
+    background-image: url('/public/images/Wave\ Line.svg');
+    border-radius: 10px 10px 0 0;
+    padding: 10px;
+    height: 100px;
+}
+
+.card-head .team-image{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    object-fit: cover;
+    position: absolute;
+    bottom:-20px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.card-body{
+    text-align: center;
+    padding: 20px 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.social-icons{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding:5px 0 0 0;
+    justify-content: center;
+    position: relative;
+}
+.social-icons::before{
+    content: "";
+    position: absolute;
+    height: 1px;
+    width: 70%;
+    top:-7px;
+    background-color: rgba(0,0,0,0.2);
+
+}
+.social-icons li a img{
+    width: 20px;
+    height: 20px;
+}
