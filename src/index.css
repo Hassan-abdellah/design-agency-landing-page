@@ -1,55 +1,75 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap');
-*{
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap");
+* {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
-:root{
-  --primary-color:hsl(234, 75%, 62%);
-  --gradient:linear-gradient( to right,
-  hsl(236, 72%, 79%), hsl(237, 63%, 64%));
+:root {
+  --primary-color: hsl(234, 75%, 62%);
+  --gradient: linear-gradient(to right, hsl(236, 72%, 79%), hsl(237, 63%, 64%));
+  --hover-gradient: linear-gradient(
+    to right,
+    hsl(237, 63%, 64%),
+    hsl(236, 72%, 79%)
+  );
 }
-body{
+body {
   line-height: 1.7;
-  font-family: 'Montserrat', sans-serif;
-  /* background-image: url('/public/images/Curve\ Line.svg'); */
-  /* background-attachment: fixed; */
-  /* background-size: cover;  */
+  font-family: "Montserrat", sans-serif;
+  /* background-image: url("/public/images/Curve\ Line.svg");
+  background-attachment: fixed;
+  background-size: cover; */
 }
-.wrapper{
+.wrapper {
   max-width: 1100px;
   width: 100%;
   margin: 0 auto;
   /* background-color: #fff; */
 }
-ul{
+ul {
   list-style: none;
   width: 100%;
 }
-a{
+a {
   text-decoration: none;
-  color:hsl(233, 13%, 49%);
+  color: hsl(233, 13%, 49%);
   font-size: 1.02rem;
 }
-.btn{
-  border:0;
-  background:none;
+.btn {
+  border: 0;
+  background: none;
   outline: 0;
-  background-image:var(--gradient);
+  background: var(--gradient);
   color: #fff;
   font-size: 15px;
   text-transform: uppercase;
-  padding:12px 0;
+  padding: 12px 0;
   border-radius: 10px;
   cursor: pointer;
   position: relative;
   transition: all 0.5s ease-in-out;
 }
-.btn-block{
+.btn span {
+  position: relative;
+  z-index: 5;
+}
+.btn::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: var(--hover-gradient);
+  border-radius: 10px;
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+}
+.btn:hover::after {
+  opacity: 1;
+}
+.btn-block {
   width: 100%;
 }
-@media screen and (max-width:1024px) {
-  .wrapper{
-    max-width: 960px;
+@media screen and (max-width: 1024px) {
+  .wrapper {
+    width: calc(100% - 20px);
   }
 }
